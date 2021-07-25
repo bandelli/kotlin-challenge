@@ -1,0 +1,22 @@
+### Server configuration ###
+server:
+  port: 8080
+
+### Spring configuration ###
+spring:
+  application:
+    name: sale
+
+### Feign configuration ###
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: basic
+        connectTimeout: 500
+        readTimeout: 1000
+
+appstock:
+  client:
+    name: stock
+    url: http://localhost:8081
