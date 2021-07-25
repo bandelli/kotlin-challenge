@@ -1,6 +1,6 @@
-#SALES API
+# SALES API
 
-##This API is for validate if a Sale could be done validation your stock 
+## This API is for validate if a Sale could be done validation your stock 
 
 Are thre Microservices
 - Sales
