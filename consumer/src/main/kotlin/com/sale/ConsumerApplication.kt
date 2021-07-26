@@ -8,7 +8,7 @@ import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
 
 @SpringBootApplication
-class ConsumerSaleApplication{
+class ConsumerApplication{
 	@Bean
 	fun messageConverter(objectMapper: ObjectMapper): MessageConverter {
 		return Jackson2JsonMessageConverter(objectMapper)
@@ -16,5 +16,5 @@ class ConsumerSaleApplication{
 }
 
 fun main(args: Array<String>) {
-	runApplication<ConsumerSaleApplication>(*args)
+	runApplication<ConsumerApplication>(*args)
 }

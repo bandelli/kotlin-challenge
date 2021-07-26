@@ -5,7 +5,7 @@
 Are thre Microservices
 - Sales
 - Stock
-- ConsumerSales
+- Consumer
 
 The Sales API will recived the request, validate with Stock API and if there are stock for the sale, produces a message on Rabbit.
 
